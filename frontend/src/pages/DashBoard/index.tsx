@@ -20,11 +20,10 @@ const DashBoard = () => {
                         <DonutChart />
                     </div>
                     <div className="py-3">
-                        <h2 className="text-primery">Totas Vendas</h2>
-
+                        <h2 className="text-primary py-3">Totas Vendas</h2>
                     </div>
+                    <DataTable />
                 </div>
-                <DataTable />
             </div>
             <Footer />
         </>
